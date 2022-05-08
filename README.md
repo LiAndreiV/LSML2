@@ -37,5 +37,5 @@ To run the whole application, execute the following commands from the project di
  Then enter in your web browser:  `http://localhost:9091/`
 
 <p align="center">
-  <img src="predict.png" width="850" title="example">
+  <img src="predict.png" width="1500" title="example">
 </p>
