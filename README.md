@@ -7,6 +7,11 @@ http://cs.stanford.edu/people/alecmgo/trainingandtestdata.zip
 ## Jupyter
 With the help of Google Colab, the initial data was processed, vectorized with the help of Burt (the following tutorial was used https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/) and the semantic score was predicted using logistic regression. The rmse, mae, r2 metrics were calculated for different parameters. The experiment was registered in MLFlow.
 
+<p align="center">
+  <img src="containers.png" width="1000" title="example">
+</p>
+
+
 ## Flask
 http server with connected to Celery via port 8000 (app conteiner)
 
@@ -24,7 +29,6 @@ track model training (mlflow conteiner)
 
 ## DB
 Database server for mlflow (db conteiner)
-
 
 ## Build project
 
