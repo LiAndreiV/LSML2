@@ -13,22 +13,22 @@ With the help of Google Colab, the initial data was processed, vectorized with t
 </p>
 
 ### Flask
-http server with connected to Celery via port 8000 (app conteiner)
+http server with connected to Celery (app conteiner)
 
 
 ### Celery
-asynchronous task processing; connected to Flask (port 8000) and MLFlow (port 5000)(celery conteiner)
+asynchronous task processing; connected to Flask and MLFlow (port 5000)(celery conteiner)
 In file model.py is registered best parameters Logistic Regression c = 10, max_iter = 100 in MLFlow.
 
 
 ### Redis
-stores Celery data (redis conteiner)
+stores Celery data (redis container)
 
 ### MLFlow
-track model training (mlflow conteiner)
+track model training (mlflow container)
 
 ### DB
-Database server for mlflow (db conteiner)
+Database server for mlflow (db container)
 
 ## Build project
 
