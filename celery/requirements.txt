@@ -1,0 +1,7 @@
+celery
+Flask
+redis
+mlflow
+transformers
+torch
+sklearn

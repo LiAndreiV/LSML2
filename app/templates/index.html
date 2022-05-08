@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sentiment  Analysis</title>
+</head>
+<body style="width:700px;margin:0 auto;text-align:center">
+    <div><h1 align="center">Sentiment Analysis Prediction Service</h1></div>
+    <div>
+        <form action="/predict" align="center" method="POST">
+            <label>Enter a sentence for sentimental analysis:</label>
+            <input style="width:500px" name="data">
+            <input type="submit">
+        </form>
+    </div>
+    <h2 align="center">{{ prediction }} {% if prediction == 'Positive' %} &#128512 {% else %} &#128543 {% endif %}</h2>
+</body>
+</html>
